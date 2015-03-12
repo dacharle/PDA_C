@@ -7,3 +7,5 @@ Mersenne twister pseudorandom number generator:
 g++ -o PDA PDA_v1.cpp mtrand.cpp 
 
 Notes: This code has not been optimized or tested extensively against analytic solutions. Segmentation fault occurs after ~20k cells.
+
+*For a parallel C++ implementation of the PDA see the "gepda" repository of GitHub user "yuchenhou". 
